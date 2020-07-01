@@ -12,12 +12,8 @@
         <sqlFile path="migrations/002-create-person.sql" relativeToChangelogFile="true"/>
     </changeSet>
 
-    <!-- xml example
-    <changeSet author="John" id="someUniqueId">
-        <addColumn tableName="users">
-            <column name="address" type="varchar(255)"/>
-        </addColumn>
+    <changeSet id="003" author="human-z" dbms="mysql">
+        <sqlFile path="migrations/003-add-person.sql" relativeToChangelogFile="true"/>
     </changeSet>
-    -->
 
 </databaseChangeLog>
